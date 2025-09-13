@@ -29,10 +29,6 @@
                     </div>
                     <div class="row d-md-flex text-center justify-content-center text-primary action-icons">
                         <div class="col-sm-4">
-                            <p><em class="ion-ios-telephone-outline icon-md"></em></p>
-                            <p class="lead"><a class="phone" href="#"></a></p>
-                        </div>
-                        <div class="col-sm-4">
                             <p><em class="ion-ios-chatbubble-outline icon-md"></em></p>
                             <p class="lead"><a class="email" href="#"></a></p>
                         </div>
@@ -108,10 +104,10 @@
         comments: { maxlength: 500 }
     },
     messages: {
-        name: 'Please enter your name.',
-        email: { required: 'You can not leave this empty.', email: 'Please enter a valid email address.' },
-        phone: { required: 'You can not leave this empty.', minlength: 'Phone number should be min 10 digits.', maxlength: 'Phone number should be max 10 digits.' },
-        price: { price: 'Please enter offered price.' },
+        name: 'Inserisci Il Tuo Nome.',
+        email: { required: 'Non Puoi Lasciare Questa Casella Vuota.', email: 'Inserisci Un Email Valida.' },
+        phone: { required: 'Non Puoi Lasciare Questa Casella Vuota.', minlength: 'Numero Non Valido.', maxlength: 'Il Numero Non Può Superare 10 Caratteri.' },
+        price: { price: 'Inserici un prezzo.' },
         comments: { maxlength: 'Message length must be less than 500 character.' }
     }
   });

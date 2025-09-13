@@ -37,6 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
   // Replace all elements with class .price
   const priceElements = document.querySelectorAll(".price");
   priceElements.forEach(function(el) {
-    if (el) el.textContent = "$" + config.price;
+    if (el) el.textContent = "€" + config.price;
   });
 });
