@@ -15,7 +15,7 @@ include 'config.php';
 		$comments = $_POST['comments']; // required
 
 
-		$email_message = "Form details below.\n\n";
+		$email_message = "Dettagli Form Qua Sotto.\n\n";
 
 		function clean_string($string) {
 				$bad = array("content-type", "bcc:", "to:", "cc:", "href");
